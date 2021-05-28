@@ -4,6 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:dev": "ng serve --configuration=dev",
+    "start:production": "ng serve --configuration=production",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -19,6 +21,13 @@
     "@angular/platform-browser": "~11.2.8",
     "@angular/platform-browser-dynamic": "~11.2.8",
     "@angular/router": "~11.2.8",
+    "@ng-bootstrap/ng-bootstrap": "^9.1.1",
+    "angular2-text-mask": "^9.0.0",
+    "bootstrap": "^4.5.0",
+    "lodash": "^4.17.21",
+    "ng-bootstrap": "^1.6.3",
+    "ngx-toastr": "^10.0.4",
+    "ngx-ui-loader": "^11.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"

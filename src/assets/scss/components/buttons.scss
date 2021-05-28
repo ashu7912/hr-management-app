@@ -1,0 +1,32 @@
+// =================== 
+
+// -- If you want to add Icon in button?
+// -- Just register Key values in $button-icons & then use generated css class.
+// If we included buttonIconGenerator mixin in test-btn class, & u addded new key arrow in $button-icons
+// then it will generate 'test-btn-arrow' class for new arrow icon.
+// Note - You must have to include btn-var/btn-outline mixin in its root class.
+
+
+// =================== 
+
+
+// You have to set properties for your button icon - 
+
+// key('arrow') - name of icon
+// iconContent - font icon content (eg.'\901')
+// iconSize - Set icon size (in px)
+// iconAt - Icon direction 'left'/'right'
+// iconSidePadding - Padding of button at side where icon is placed
+// iconToBorderDist - Icons distance from left/right edge of button
+
+
+$button-icons: (
+  'arrow': (
+    'iconContent': '\e901',
+    'iconSize': 25px,
+    'iconAt': 'left',
+    'iconSidePadding': 40px,
+    'iconToBorderDist': 10px
+  ),
+);
+

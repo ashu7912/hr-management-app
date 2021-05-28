@@ -1,0 +1,25 @@
+
+// Dynamically generate theme colour classes for text & background
+// variable 1 - selected theme variable
+// variable 2 - select text class (fg) OR backgound class (bg)
+// =================== 
+
+@include theme-class-generator($colors-default, 'fg');
+
+@if $theme == 1 {
+  @include theme-class-generator($colors-theme1, 'fg');
+  @include theme-class-generator($colors-theme1, 'bg');
+} @else if $theme == 2 {
+  @include theme-class-generator($colors-theme2, 'fg');
+  @include theme-class-generator($colors-theme2, 'bg');
+}
+// =================== 
+
+
+// Dynamically generate font size classes according to $font-sizes variable
+// variable 1 - set unit (px)
+// =================== 
+
+@include fonts-class-generator('px');
+
+// =================== 
