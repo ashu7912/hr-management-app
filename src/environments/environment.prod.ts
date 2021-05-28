@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  coreApiBaseUrl: 'http://localhost:3000/'
+  coreApiBaseUrl: 'https://bridgera-management.herokuapp.com/'
 };
