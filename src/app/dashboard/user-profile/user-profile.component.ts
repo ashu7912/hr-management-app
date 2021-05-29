@@ -44,6 +44,7 @@ export class UserProfileComponent implements OnInit {
       .subscribe(
         (res) => {
           this.loggedInUser = res;
+          this.profileInfo = this.loggedInUser;
         }
       );
 
