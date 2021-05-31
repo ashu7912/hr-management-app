@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  coreApiBaseUrl: 'http://localhost:3000/'
+  coreApiBaseUrl: 'https://bridgera-hr-management.herokuapp.com/'
 };
 
 /*
